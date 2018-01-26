@@ -138,7 +138,6 @@
                 "height": 600
             },
             "component": {
-                "account-type": "vip",
                 "inject": false
             },
             "foreign": {
@@ -185,116 +184,14 @@
                 },
                 "components": {
                     "App Launcher": {
-                        "launchableByUser": false,
-                        "showLinker": true
+                        "launchableByUser": true
                     },
                     "Window Manager": {
                         "FSBLHeader": true,
-                        "persistWindowState": true,
-                        "showLinker": true
+                        "persistWindowState": true
                     },
                     "Toolbar": {
                         "iconClass": "accountDetail"
-                    }
-                }
-            }
-        },
-        "accountStatement": {
-            "window": {
-                "url": "$applicationRoot/components/accountStatement/accountStatement.html",
-                "frame": false,
-                "resizable": true,
-                "autoShow": true,
-                "top": "center",
-                "left": "center",
-                "width": 800,
-                "height": 600
-            },
-            "component": {
-                "inject": false
-            },
-            "foreign": {
-                "services": {
-                    "dockingService": {
-                        "canGroup": true,
-                        "isArrangable": true
-                    }
-                },
-                "components": {
-                    "App Launcher": {
-                        "launchableByUser": true
-                    },
-                    "Window Manager": {
-                        "FSBLHeader": true,
-                        "persistWindowState": true,
-                        "showLinker": true
-                    },
-                    "Toolbar": {
-                        "iconClass": "accountStatement"
-                    }
-                }
-            }
-        },
-        "Chart": {
-            "window": {
-                "url": "https://finsemble.chartiq.com/components/premium/chart/sample-template-advanced.html",
-                "width": 500,
-                "height": 500,
-                "options":{
-                    "minWidth": 75
-                }
-            },
-            "component": {
-            },
-            "foreign": {
-                "services": {
-                    "dockingService": {
-                        "isArrangable": true
-                    }
-                },
-                "components": {
-                    "App Launcher": {
-                        "launchableByUser": true
-                    },
-                    "Toolbar": {
-                        "iconClass": "ff-chart-advanced"
-                    },
-                    "Window Manager": {
-                        "FSBLHeader": true,
-                        "showLinker": true,
-                        "persistWindowState": true
-                    }
-                }
-            }
-        },
-        "Reactive Trader": {
-            "window": {
-                "listName": "Reactive Trader",
-                "url": "https://web-demo.adaptivecluster.com/",
-                "width": 900,
-                "height": 700,
-                "type": "openfinApplication",
-                "icon": "https://web-demo.adaptivecluster.com/images/adaptive-mark-large.png"
-            },
-            "component": {
-            },
-            "foreign": {
-                "services": {
-                    "dockingService": {
-                        "isArrangable": true
-                    }
-                },
-                "components": {
-                    "App Launcher": {
-                        "launchableByUser": true
-                    },
-                    "Toolbar": {
-                        "iconClass": "ff-chart-advanced"
-                    },
-                    "Window Manager": {
-                        "FSBLHeader": true,
-                        "showLinker": true,
-                        "persistWindowState": true
                     }
                 }
             }

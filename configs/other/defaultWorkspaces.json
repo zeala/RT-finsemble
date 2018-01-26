@@ -5,7 +5,7 @@
             "windows": [],
             "components": [
                 {
-                    "type": "Welcome Component",
+                    "type": "accountList",
                     "options": {
                         "top": 50,
                         "left": 50
